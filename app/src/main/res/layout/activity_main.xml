@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonHolderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <Button
+        android:id="@+id/simplepermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="simple permission1" />
+
+    <Button
+        android:id="@+id/design_of_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="design_of_permission" />
+</LinearLayout>
+
